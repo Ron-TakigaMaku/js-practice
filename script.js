@@ -10,8 +10,9 @@
 // console.log(name, 'was born in', birthYear)
 
 // // Задача 3
-// a = 5
-// b = 10
+// let a = 5
+// let b = 10
+
 // console.log(a + b)
 // console.log(a - b)
 // console.log(a * b)
@@ -28,7 +29,9 @@
 
 // Задача 6
 // Используй template literal (обратные кавычки  ), чтобы вывести ту же фразу.
-// я не знаю как это делать
+// const name = 'Ron'
+// let age = 22
+// console.log(`My name is ${name} and my age is ${age}`)
 
 // Задача 7
 // const price = 1000
@@ -43,7 +46,7 @@
 // console.log(results)
 
 // Задача 9
-// я не знаю как это делать
+// console.log(17 % 3)
 
 // Задача 10
 // let age = 21
