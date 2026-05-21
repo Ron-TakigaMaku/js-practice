@@ -49,15 +49,13 @@
 // console.log(divide(10, 0))
 
 // Задание 2
-// let age = 12
 // function checkAge(age) {
 // 	if (age >= 18) {
-// 		console.log('Access granted')
-// 	} else {
-// 		console.log('Access denied')
+// 		return 'Access granted'
 // 	}
+// 	return 'Access denied'
 // }
-// checkAge(age)
+// console.log(checkAge(12))
 
 // Задание 3
 // let age = 21
@@ -68,25 +66,25 @@
 // console.log(formatUser(name, age))
 
 // Блок 2
+const products = [
+	{ id: 1, title: 'iPhone', price: 1300 },
+	{ id: 2, title: 'Samsung', price: 1200 },
+	{ id: 3, title: 'Xiaomi', price: 400 },
+	{ id: 4, title: 'Redmi', price: 300 },
+	{ id: 5, title: 'POCO', price: 700 },
+	{ id: 6, title: 'BLACKBERRY', price: 900 },
+]
 // Задание 1
-// const products = [
-// 	{ id: 1, title: 'iPhone', price: 1300 },
-// 	{ id: 2, title: 'Samsung', price: 1200 },
-// 	{ id: 3, title: 'Xiaomi', price: 400 },
-// 	{ id: 4, title: 'Redmi', price: 300 },
-// 	{ id: 5, title: 'POCO', price: 700 },
-// 	{ id: 6, title: 'BLACKBERRY', price: 900 },
-// ]
 // function filterProductions(products, minPrice) {
 // 	return products.filter(product => product.price >= minPrice)
 // }
 // console.log(filterProductions(products, 800))
 
 // Задание 2
-// function findPruductionById(productions, id) {
-// 	return productions.find(production => production.id === id)
+// function findProductById(products, id) {
+// 	return products.find(product => product.id === id)
 // }
-// console.log(findPruductionById(products, 2))
+// console.log(findProductById(products, 2))
 
 // Задание 3
 // function getProductionTitles(products) {
@@ -95,13 +93,13 @@
 // console.log(getProductionTitles(products))
 
 // Задание 4
-// function someProductionExpensive(productions, price) {
-// 	return productions.some(production => production.price > price)
+// function someProductsExpensive(products, price) {
+// 	return products.some(product => product.price > price)
 // }
-// console.log(someProductionExpensive(products, 1000))
+// console.log(someProductsExpensive(products, 1000))
 
 // Задание 5
-// function everyProductionAffordable(productions, price) {
-// 	return productions.every(production => production.price < price)
+// function everyProductAffordable(products, price) {
+// 	return products.every(product => product.price < price)
 // }
-// console.log(everyProductionAffordable(products, 300))
+// console.log(everyProductAffordable(products, 300))
