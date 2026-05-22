@@ -66,14 +66,14 @@
 // console.log(formatUser(name, age))
 
 // Блок 2
-const products = [
-	{ id: 1, title: 'iPhone', price: 1300 },
-	{ id: 2, title: 'Samsung', price: 1200 },
-	{ id: 3, title: 'Xiaomi', price: 400 },
-	{ id: 4, title: 'Redmi', price: 300 },
-	{ id: 5, title: 'POCO', price: 700 },
-	{ id: 6, title: 'BLACKBERRY', price: 900 },
-]
+// const products = [
+// 	{ id: 1, title: 'iPhone', price: 1300 },
+// 	{ id: 2, title: 'Samsung', price: 1200 },
+// 	{ id: 3, title: 'Xiaomi', price: 400 },
+// 	{ id: 4, title: 'Redmi', price: 300 },
+// 	{ id: 5, title: 'POCO', price: 700 },
+// 	{ id: 6, title: 'BLACKBERRY', price: 900 },
+// ]
 // Задание 1
 // function filterProductions(products, minPrice) {
 // 	return products.filter(product => product.price >= minPrice)
